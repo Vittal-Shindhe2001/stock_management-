@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.divPadding{
+ padding-bottom: 2ch
+}
+
+.search-form-container {
+  margin-bottom: 20px; /* Add some spacing at the bottom */
+}
+
+/* Style for the search label */
+.search-label {
+  display: block; /* Make it a block element to occupy full width */
+  font-weight: bold;
+  color: #333;
+}
+
+/* Style for the search input */
+.search-input {
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+/* About.js css */
+/* Style for the container holding the content */
+.container-fluid {
+  padding: 20px;
+}
+
+/* Style for the card */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Style for the card body (text content) */
+.card-body {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Style for the list items */
+.card-body li {
+  margin-bottom: 10px;
+  list-style: disc;
+  margin-left: 20px;
+}
+
+/* Optional: Add padding to the bottom of the card */
+.divPadding {
+  padding-bottom: 20px;
+}
